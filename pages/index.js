@@ -15,15 +15,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head >
 
-      {/* <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40"> */}
-      <main className="bg-white px-10 md:px-20 lg:px-40">
+      <main className="bg-white dark:bg-gray-900 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          {/* <section> */}
-          <nav className="py-10 mb-12 flex justify-between">
+          <nav className="py-10 mb-4 md:mb-8 lg:mb-8 flex justify-between dark:text-gray-200">
             <h1 className="text-xl font-burtons">Portfolio</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}
+                  className="cursor-pointer text-2xl" />
               </li>
               <li>
                 <a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
@@ -31,10 +30,10 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Sidak Aneja</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Computer Science Student</h3>
-            <h3 className="text-xl text-teal-900 md:text-2xl">Aspiring Software Developer</h3>
-            <p className="text-md py-4 leading-7 md:text-xl max-w-l mx-auto">
+            <h2 className="text-5xl py-2 text-teal-600 dark:text-teal-400 font-medium md:text-6xl">Sidak Aneja</h2>
+            <h3 className="text-xl py-2 dark:text-gray-200 md:text-2xl">Computer Science Student</h3>
+            <h3 className="text-xl text-teal-900 dark:text-teal-600 md:text-2xl">Aspiring Software Developer</h3>
+            <p className="text-md py-4 leading-7 md:text-xl max-w-l mx-auto dark:text-gray-100">
               Interest in back-end development, computer systems, and complex infrastructure systems. I have hands-on experience creating scalable web applications, data pipelines, hardware emulators and embedded systems.
             </p>
           </div>
