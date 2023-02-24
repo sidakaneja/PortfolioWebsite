@@ -4,6 +4,8 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import Image from "next/image";
 import peacePortrait from "../public/image.png"
 
+const resumeLink = "https://drive.google.com/file/d/1QS1_ZFq8w_7-m-NGrOaMa5T8CF1sG1nm/view?usp=sharing";
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
@@ -25,7 +27,7 @@ export default function Home() {
                   className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a>
+                <a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href={resumeLink}>Resume</a>
               </li>
             </ul>
           </nav>
