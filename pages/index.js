@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className="bg-white dark:bg-gray-900 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-4 md:mb-8 lg:mb-8 flex justify-between dark:text-gray-200">
+          <nav className="py-10 mb-8 md:pb-4 md:mb-3 flex justify-between dark:text-gray-200">
             <h1 className="text-xl font-burtons">Portfolio</h1>
             <ul className="flex items-center">
               <li>
