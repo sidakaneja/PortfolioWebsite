@@ -5,7 +5,7 @@ import Image from "next/image";
 import peacePortrait from "../public/image.png"
 import TypingBanner from '../components/Banner.js'
 
-const resumeLink = "https://drive.google.com/file/d/1QS1_ZFq8w_7-m-NGrOaMa5T8CF1sG1nm/view?usp=sharing";
+const resumeLink = "https://drive.google.com/file/d/1OLz3-YbOLQtNq5ZEWGt3Ebn8adsjgDJg/view?usp=sharing";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
